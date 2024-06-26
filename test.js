@@ -295,6 +295,9 @@ tester.run('textlint-rule-terminology', rule, {
 			// Should ignore `http` in the middle of a word
 			text: 'We should all use XMLHttpRequest everywhere',
 		},
+		{
+			text: 'これにより、[.pre-commit-config.yaml](.pre-commit-config.yaml)の設定に基づいて、コミット時にクレデンシャルが含まれていないかの検査が行われるようになる。',
+		},
 	],
 	invalid: [
 		{

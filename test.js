@@ -296,7 +296,7 @@ tester.run('textlint-rule-terminology', rule, {
 			text: 'We should all use XMLHttpRequest everywhere',
 		},
 		{
-			text: '[.pre-commit-config.yaml](.pre-commit-config.yaml)',
+			text: 'foo.yaml',
 		},
 	],
 	invalid: [
